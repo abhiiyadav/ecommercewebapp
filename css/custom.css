@@ -100,3 +100,6 @@ tr:last-child td:last-child {
 .product-thumb img{ 
     max-width: 60px;
 }
+.pagination__wrapper{
+    padding-bottom: 5git0px;
+}
