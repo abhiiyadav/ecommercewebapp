@@ -96,3 +96,7 @@ tr:last-child td:last-child {
 .manage-users-table{
     width: 100%;
 }
+
+.product-thumb img{ 
+    max-width: 60px;
+}
