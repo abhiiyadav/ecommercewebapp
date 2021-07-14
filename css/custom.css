@@ -2,11 +2,13 @@
 /* Your custom styles below */
 td, th {
     font-size: 14px !important;
+    padding: 15px 5px;
 }
 
 td {
     background: #FFFFFF;
-    padding: 5px;
+    padding: auto;
+    margin: auto;
     text-align: center;
     vertical-align: middle;
     /* font-weight:300; */
@@ -37,7 +39,7 @@ th {
     border-right: 1px solid #343a45;
     /* font-size:14px; */
     /* font-weight: 100; */
-    padding:5px;
+    margin: auto;
     text-align: center;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     vertical-align: middle;
@@ -61,12 +63,7 @@ tr {
     text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
 }
 
-/* tr:hover td {
-    background:#4E5066;
-    color:#FFFFFF;
-    border-top: 1px solid #22262e;
-  }
-    */
+
 
 tr:first-child {
     border-top: none;
@@ -94,4 +91,8 @@ tr:last-child td:last-child {
 
 .inner-table td {
     background-color: #EBEBEB !important;
+}
+
+.manage-users-table{
+    width: 100%;
 }
